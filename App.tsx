@@ -699,36 +699,12 @@ const styles = StyleSheet.create({
     color: '#34d399',
   },
   // Стили для Tab Bar
-  tabBar: {
-    flexDirection: 'row',
-    backgroundColor: 'rgba(15, 23, 42, 0.95)',
-    borderTopWidth: 1,
-    borderTopColor: '#1e293b',
-    height: 80,
-    paddingBottom: 20,
-    paddingTop: 10,
-  },
-  tabItem: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  tabIcon: {
-    fontSize: 24,
-    marginBottom: 4,
-    color: '#64748b',
-  },
-  tabIconActive: {
-    color: '#06b6d4',
-  },
-  tabLabel: {
-    fontSize: 12,
-    color: '#64748b',
-  },
-  tabLabelActive: {
-    color: '#06b6d4',
-    fontWeight: '600',
-  },
+
+
+ 
+ 
+
+
   // Стили для новых экранов
   statsGrid: {
     gap: 16,
@@ -923,12 +899,13 @@ loadingSubtext: {
 },
 // Стили для Tab Bar
 tabBar: {
-  backgroundColor: 'rgba(15, 23, 42, 0.95)',
-  borderTopWidth: 1,
-  borderTopColor: 'rgba(255, 255, 255, 0.1)',
-  height: 84,
-  paddingBottom: 8,
-  paddingTop: 8,
+      flexDirection: 'row',
+    backgroundColor: 'rgba(15, 23, 42, 0.95)',
+    borderTopWidth: 1,
+    borderTopColor: '#1e293b',
+    height: 80,
+    paddingBottom: 20,
+    paddingTop: 10,
   shadowColor: '#000',
   shadowOffset: {
     width: 0,
@@ -945,9 +922,9 @@ tabBarContent: {
   justifyContent: 'space-around',
 },
 tabItem: {
-  alignItems: 'center',
-  justifyContent: 'center',
-  flex: 1,
+      flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
   paddingVertical: 8,
   borderRadius: 16,
   marginHorizontal: 4,
@@ -965,10 +942,13 @@ tabIcon: {
   fontSize: 20,
   color: '#64748b',
   fontWeight: '300',
+      marginBottom: 4,
 },
+
 tabIconActive: {
   color: '#06b6d4',
   fontWeight: '400',
+  
 },
 activeDot: {
   position: 'absolute',
@@ -979,6 +959,7 @@ activeDot: {
   backgroundColor: '#06b6d4',
 },
 tabLabel: {
+  
   fontSize: 11,
   color: '#64748b',
   fontWeight: '500',
