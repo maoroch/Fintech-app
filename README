@@ -1,0 +1,97 @@
+# Kardia – Personal Finance Analytics App
+
+Kardia is a mobile application for **tracking, analyzing, and forecasting personal expenses and income** using AI.  
+Built with **React Native**, **Expo**, and **Groq AI SDK** for smart analytics.
+
+---
+## 🎥 Demo Video
+
+[Watch Demo on YouTube](https://youtube.com/shorts/ZiOgQEP8cDs?feature=share)
+
+
+## 🚀 Tech Stack
+
+- **React Native 0.81.5** – cross-platform mobile framework
+- **Expo 54** – simplifies development and deployment
+- **React Navigation** – stack and bottom-tabs navigation
+- **NativeWind / Tailwind CSS 3** – styling
+- **Groq SDK** – AI-powered analytics
+- **Lucide React** – icons
+- **TypeScript 5** – type safety
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/kardia.git
+cd kardia
+
+Install dependencies:
+npm install
+# or
+yarn install
+
+
+🛠️ Development
+
+Start Expo development server:
+
+npm run start
+# or for web
+npm run web
+# or for iOS / Android
+npm run ios
+npm run android
+
+Open the Expo app on your device or simulator to see the result.
+
+
+📁 Project Structure
+/
+├── app/                     # App code
+│   ├── components/          # UI components
+│   ├── screens/             # App screens
+│   └── navigation/          # Stack & Tabs navigation
+├── assets/                  # Images, icons, fonts
+├── App.tsx                  # Entry point
+├── package.json
+└── README.md
+
+
+🎨 Styling
+
+Tailwind CSS via NativeWind
+
+Expo Linear Gradient & Blur for modern UI
+
+Safe Area Context for correct layout on all devices
+
+🤖 AI Analytics
+
+Income & expense categorization
+
+Predictive analytics for budgeting
+
+Smart suggestions to optimize spending
+
+Powered by Groq SDK (AI models compatible with OpenAI API)
+
+🔑 Environment Variables
+
+Create .env in root:
+EXPO_PUBLIC_GROQ_API_KEY="your-groq-api-key"
+
+
+🚀 Deployment
+
+Expo Go (for development)
+
+Build for Android / iOS using Expo:
+
+expo build:android
+expo build:ios
+
+Or use EAS Build for production-ready apps.
