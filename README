@@ -25,9 +25,13 @@ Built with **React Native**, **Expo**, and **Groq AI SDK** for smart analytics.
 
 Clone the repository:
 
+```md
 ```bash
 git clone https://github.com/yourusername/kardia.git
 cd kardia
+npm install
+# or
+yarn install
 
 Install dependencies:
 npm install
