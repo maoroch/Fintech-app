@@ -27,7 +27,7 @@ Clone the repository:
 
 ```md
 ```bash
-git clone https://github.com/yourusername/kardia.git
+git clone https://github.com/maoroch/Fintech-app/
 cd kardia
 npm install
 # or
